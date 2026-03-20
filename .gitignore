@@ -38,7 +38,7 @@ wheels/
 *.fatbin
 
 # --- LaTeX & Tectonic ---
-# Tectonic is clean, but LaTeX still generates auxiliary files.
+
 *.aux
 *.log
 *.toc
@@ -49,12 +49,11 @@ wheels/
 *.pdfsync
 *.blg
 *.bbl
-# NOTE: If you want to commit your final whitepapers, 
-# keep 'reports/*.pdf' but ignore root-level PDFs.
+
 /*.pdf
 
 # --- Data & Security (CRITICAL) ---
-# Never commit raw datasets or private keys.
+
 data/*.csv
 data/*.parquet
 data/*.json
@@ -64,7 +63,7 @@ data/*.json
 *.pem
 
 # --- Arch Linux & System Files ---
-# Avoid OS-specific clutter
+
 .DS_Store
 Thumbs.db
 *~
